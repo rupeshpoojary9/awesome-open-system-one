@@ -28,6 +28,11 @@ Open models and runnable replicas of the System One idea.
 - [Laya](https://laya.convaiinnovations.com/) - A 421M non-autoregressive System One decision engine with RLCD-trained calibrated probabilities and multilingual support.
 - [NanoJev](https://github.com/chenyangcun/NanoJev) - A minimal nanoGPT-style replica of Jev: parallel decisions, dynamic candidates, and an end-to-end training pipeline.
 - [nanojev (single-file)](https://github.com/novvoo/nanojev) - A single-file, MIT-licensed educational implementation with a small serving UI and HTTP API.
+- [kev](https://github.com/jaredpalmer/kev) - A tiny, trainable family of Jev-like decision models built on Qwen3.5 that you can fine-tune and run locally.
+- [SemIf](https://github.com/TheoLeeCJ/SemIf) - Independent "semantic if" engine: typed decisions from open models on a single home GPU, unaffiliated with Jev or TypeSafe.
+- [laya-mlx](https://github.com/mizorewww/laya-mlx) - Native Apple Silicon (MLX) runtime for running the open Laya typed-decision model locally, non-autoregressive with no text generation.
+- [simple-jev](https://github.com/featherless-ai/simple-jev) - Turns any open model into a typed classifier or Jev-style decision endpoint.
+- [OpenThai-SystemOne](https://github.com/iapp-technology/openthai-systemone) - Open (Apache-2.0) Thai and English System One decision model, 0.8B with a 256-way slot head.
 
 ## Independent Benchmarks and Evaluations
 
@@ -36,6 +41,7 @@ Third-party evaluations of typed decision models, measuring what the marketing p
 - [jev-benchmarks](https://github.com/AbdelStark/jev-benchmarks) - Probability-aware evaluation for typed decision models: calibration, selective risk, latency, and reproducible benchmarks.
 - [jev-baselines-eval](https://github.com/ickma2311/jev-baselines-eval) - Pre-registered independent eval of Jev against a nano-class LLM, a frontier LLM, and a supervised encoder on Banking77 and CLINC150.
 - [jev-eval](https://github.com/4esv/jev-eval) - Independent eval of Jev vs a frontier LLM across labelled classification tasks: accuracy, calibration, latency, and cost.
+- [JevBench](https://github.com/fstandhartinger/jevbench) - Open benchmark for Jev-class typed decision models, scoring accuracy, cost, latency, and reliability.
 
 ## Calibration and Selective Prediction
 
@@ -43,6 +49,7 @@ The techniques that make a confidence score trustworthy, and let a model abstain
 
 - [conformal-prediction](https://github.com/aangelopoulos/conformal-prediction) - Angelopoulos and Bates: lecture notes and runnable notebooks on conformal prediction and distribution-free uncertainty, the basis for principled abstention.
 - [MAPIE](https://github.com/scikit-learn-contrib/MAPIE) - Scikit-learn-compatible library for prediction intervals and sets with guaranteed coverage, usable for the "escalate when unsure" path.
+- [jevcal](https://github.com/abhixhek/jevcal) - Calibrates, thresholds, and drift-checks the confidence scores of typed decision models so you stop guessing cutoffs.
 
 ## Constrained and Structured Decoding
 

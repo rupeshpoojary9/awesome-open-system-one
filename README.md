@@ -33,6 +33,7 @@ Open models and runnable replicas of the System One idea.
 - [laya-mlx](https://github.com/mizorewww/laya-mlx) - Native Apple Silicon (MLX) runtime for running the open Laya typed-decision model locally, non-autoregressive with no text generation.
 - [simple-jev](https://github.com/featherless-ai/simple-jev) - Turns any open model into a typed classifier or Jev-style decision endpoint.
 - [OpenThai-SystemOne](https://github.com/iapp-technology/openthai-systemone) - Open (Apache-2.0) Thai and English System One decision model, 0.8B with a 256-way slot head.
+- [Prosodia](https://github.com/alperiox/audio-jevlike) - Audio-native System One model: speech encoded once, typed questions branch in parallel, no ASR and no generated text.
 
 ## Independent Benchmarks and Evaluations
 

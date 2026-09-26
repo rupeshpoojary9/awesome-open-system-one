@@ -34,6 +34,7 @@ Open models and runnable replicas of the System One idea.
 - [OpenThai-SystemOne](https://github.com/iapp-technology/openthai-systemone) - Open (Apache-2.0) Thai and English System One decision model, 0.8B with a 256-way slot head.
 - [jevos](https://github.com/feder-cr/jev) - Open-source, Jev-compatible System One model for yes/no decisions: 1B (MiniCPM5, 17 layers), GGUF, CPU-only via llama.cpp, MIT license.
 - [Prosodia](https://github.com/alperiox/audio-jevlike) - Audio-native System One model: speech encoded once, typed questions branch in parallel, no ASR and no generated text.
+- [sokudan](https://github.com/hiroki-abe-58/sokudan) - Apache-2.0 Japanese System One model (314.6M, ModernBERT-ja); 3-seed mean bool AUROC 0.789 on its own CC BY 4.0 bench_ja; bool under-predicts true.
 
 ## Independent Benchmarks and Evaluations
 

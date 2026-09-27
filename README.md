@@ -27,12 +27,13 @@ Open models and runnable replicas of the System One idea.
 - [von](https://github.com/wfzyx/von) - Open-source System One decision model: sub-15ms, non-autoregressive, local drop-in alternative to Jev.
 - [Laya](https://laya.convaiinnovations.com/) - A 421M non-autoregressive System One decision engine with RLCD-trained calibrated probabilities and multilingual support.
 - [NanoJev](https://github.com/chenyangcun/NanoJev) - A minimal nanoGPT-style replica of Jev: parallel decisions, dynamic candidates, and an end-to-end training pipeline.
-- [nanojev (single-file)](https://github.com/novvoo/nanojev) - A single-file, MIT-licensed educational implementation with a small serving UI and HTTP API.
 - [kev](https://github.com/jaredpalmer/kev) - A tiny, trainable family of Jev-like decision models built on Qwen3.5 that you can fine-tune and run locally.
 - [SemIf](https://github.com/TheoLeeCJ/SemIf) - Independent "semantic if" engine: typed decisions from open models on a single home GPU, unaffiliated with Jev or TypeSafe.
 - [laya-mlx](https://github.com/mizorewww/laya-mlx) - Native Apple Silicon (MLX) runtime for running the open Laya typed-decision model locally, non-autoregressive with no text generation.
 - [simple-jev](https://github.com/featherless-ai/simple-jev) - Turns any open model into a typed classifier or Jev-style decision endpoint.
 - [OpenThai-SystemOne](https://github.com/iapp-technology/openthai-systemone) - Open (Apache-2.0) Thai and English System One decision model, 0.8B with a 256-way slot head.
+- [jevos](https://github.com/feder-cr/jev) - Open-source, Jev-compatible System One model for yes/no decisions: 1B (MiniCPM5, 17 layers), GGUF, CPU-only via llama.cpp, MIT license.
+- [Prosodia](https://github.com/alperiox/audio-jevlike) - Audio-native System One model: speech encoded once, typed questions branch in parallel, no ASR and no generated text.
 
 ## Independent Benchmarks and Evaluations
 

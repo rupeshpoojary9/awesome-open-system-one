@@ -35,6 +35,7 @@ Open models and runnable replicas of the System One idea.
 - [jevos](https://github.com/feder-cr/jev) - Open-source, Jev-compatible System One model for yes/no decisions: 1B (MiniCPM5, 17 layers), GGUF, CPU-only via llama.cpp, MIT license.
 - [Prosodia](https://github.com/alperiox/audio-jevlike) - Audio-native System One model: speech encoded once, typed questions branch in parallel, no ASR and no generated text.
 - [sokudan](https://github.com/hiroki-abe-58/sokudan) - Apache-2.0 Japanese System One model (314.6M, ModernBERT-ja); v0.2 averages eight seeds' weights; bool AUROC 0.844 on its own CC BY 4.0 bench_ja; bool under-predicts true.
+- [WaterSheep](https://github.com/SamratDuttaOfficial/WaterSheep) - Apache-2.0 English decision model on ModernBERT-base: noul, choice, score and multi-label questions, per-type temperature calibration, a local /v1/systemone server and an ONNX browser build.
 
 ## Independent Benchmarks and Evaluations
 

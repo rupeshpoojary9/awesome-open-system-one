@@ -26,7 +26,7 @@ Open models and runnable replicas of the System One idea.
 - [poorjev](https://github.com/rupeshpoojary9/poorjev) - Local-first System One layer on commodity models with provably calibrated confidence (measured ECE 0.170 to 0.071), typed primitives, no API key.
 - [von](https://github.com/wfzyx/von) - Open-source System One decision model: sub-15ms, non-autoregressive, local drop-in alternative to Jev.
 - [Laya](https://github.com/NandhaKishorM/laya) - A 421M non-autoregressive System One decision engine with RLCD-trained calibrated probabilities and multilingual support.
-- [NanoJev](https://github.com/chenyangcun/NanoJev) - A minimal nanoGPT-style replica of Jev: parallel decisions, dynamic candidates, and an end-to-end training pipeline.
+- [NanoJev](https://github.com/TianyuCodings/NanoJev) - A minimal nanoGPT-style replica of Jev: parallel decisions, dynamic candidates, and an end-to-end training pipeline.
 - [kev](https://github.com/jaredpalmer/kev) - A tiny, trainable family of Jev-like decision models built on Qwen3.5 that you can fine-tune and run locally.
 - [SemIf](https://github.com/TheoLeeCJ/SemIf) - Independent "semantic if" engine: typed decisions from open models on a single home GPU, unaffiliated with Jev or TypeSafe.
 - [laya-mlx](https://github.com/mizorewww/laya-mlx) - Native Apple Silicon (MLX) runtime for running the open Laya typed-decision model locally, non-autoregressive with no text generation.

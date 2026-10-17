@@ -62,6 +62,7 @@ Making output schema-valid by construction rather than by parsing, an adjacent l
 - [Instructor](https://github.com/567-labs/instructor) - Structured outputs from LLMs via typed schemas, with validation and retries; a common baseline for typed decisions today.
 - [Guidance](https://github.com/guidance-ai/guidance) - Constrained generation with interleaved control, so structure is enforced during decoding rather than after.
 - [LM Format Enforcer](https://github.com/noamgat/lm-format-enforcer) - Enforces JSON schema or regex on LLM output during generation.
+- [guidelint](https://github.com/SIDDARTHAREDDY8/guidelint) - Preflight linter for structured-output configs: catches silently-ignored fields and backend keyword gaps across vLLM, llama.cpp, and Ollama.
 
 ## Reference and Reading
 

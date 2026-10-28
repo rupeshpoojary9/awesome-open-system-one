@@ -52,6 +52,7 @@ The techniques that make a confidence score trustworthy, and let a model abstain
 - [conformal-prediction](https://github.com/aangelopoulos/conformal-prediction) - Angelopoulos and Bates: lecture notes and runnable notebooks on conformal prediction and distribution-free uncertainty, the basis for principled abstention.
 - [MAPIE](https://github.com/scikit-learn-contrib/MAPIE) - Scikit-learn-compatible library for prediction intervals and sets with guaranteed coverage, usable for the "escalate when unsure" path.
 - [jevcal](https://github.com/abhixhek/jevcal) - Calibrates, thresholds, and drift-checks the confidence scores of typed decision models so you stop guessing cutoffs.
+- [s1kit](https://github.com/Eliot5566/s1kit) - Fits a per-question confidence cutoff for a target precision on your labelled cases and routes answers below it to the next `/v1/systemone` model, open or hosted.
 
 ## Constrained and Structured Decoding
 
